@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    width: 70%;
+    height: 70px;
+    margin: 0 auto;
+    background-color: #FFEBCD;
+}
+
+nav{
+    padding-left: 35px;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-content: center;
+    height: 70px;
+    
+}
+
+ul li{
+    color: #0000ff;
+    text-decoration: underline;
+    margin-right: 40px;
+    font-size: 17px;
+}
+
+ul li:hover{
+    color: #000;
+    text-decoration: none;
+}
+
+main{
+    width: 70%;
+    height: 450px;
+    background-color: #FDF5E6;
+    margin: 0 auto;
+}
+
+.block_0{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.sedan{
+    position: absolute;
+    top: 85px; left: 360px;
+    width: 120px;
+    height: 70px;
+}
+
+.roadster{
+    width: 115px;
+    height: 90px;
+    position: absolute;
+    top: 75px;
+    left: 560px;
+}
+
+.cupe{
+    width: 140px;
+    height: 55px;
+    position: absolute;
+    top: 85px; left: 740px;
+}
+
+.block_1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-bottom: 25px;
+}
+
+.block_1 a{
+    color: #0000ff;
+    margin-right: 50px;
+}
+
+.block_2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-bottom: 25px;
+}
+
+.block_2 a{
+    color: #0000ff;
+    margin-right: 65px;
+}
+
+.block_3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-bottom: 25px;
+}
+
+.block_3 a{
+    color: #0000ff;
+    margin-right: 50px;
+}
+
+.a1{
+    font-weight: 700;
+}
+
+.bl1{
+    width: 100px;
+    height: 30px;
+    background-color: #FFD700;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 17px;
+    position: absolute;
+    top: 310px; left: 257px;
+}
+
+.bl2{
+    width: 100px;
+    height: 30px;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 17px;
+    position: absolute;
+    top: 310px; left: 359px;
+}
+
+.bl3{
+    width: 100px;
+    height: 30px;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 17px;
+    position: absolute;
+    top: 310px; left: 461px;
+}
+
+.block_4{
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p{
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
